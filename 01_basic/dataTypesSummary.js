@@ -37,18 +37,18 @@ JavaScript's dynamic typing allows for more flexibility but can lead to potentia
 const id = Symbol('123');
 const anotherId = Symbol('123');
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const heros = ["shakiman", "naagraj", "bheem"];
-console.log(typeof heros); // object
+// console.log(typeof heros); // object
 
 const myObj = {
     name: "Vijay",
     age: "24"
 }
-console.log(typeof myObj);
+// console.log(typeof myObj);
 
-console.log(typeof id);
+// console.log(typeof id);
 
 /* 
 Primitive DataTypes:
@@ -141,4 +141,30 @@ const myFunction = function () {
     console.log("Hello World");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+//************************ Stack and Heap******************************* */
+/*
+Primitive datatypes->
+call by value (string,number,boolean,null,undefined,BigInt,symbol) ->Stack memory
+
+Reference/Non primitive data types ->
+call by reference ( array,object, function) -> heap memory
+*/
+
+// Stack example , in stack we get the copy of the variable , so if we make any changes in copy , then it will not reflect to the original values
+// let youtubeName = "chaiaurcode";
+// let anotherName = youtubeName;
+// anotherName = "js";
+// console.log(youtubeName);
+// console.log(anotherName);
+
+
+// Heap example : In heap we get the reference of original value, if we make any changes in copy then it will reflect to the origianl one as well
+// let myObj1 = {
+//     email: "abc@gmail.com",
+//     upi: "abc@ybl"
+// }
+// let myObj2 = myObj1
+// myObj2.email = "vijay12@gmail.com";
+// console.table([myObj1, myObj2]);
