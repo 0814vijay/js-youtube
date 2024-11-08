@@ -1,0 +1,32 @@
+const score = 100;
+// console.log(score);
+
+
+const otherNumber = new Number(1000);
+// console.log(otherNumber.toFixed(2));
+
+const anotherNumber = 123.8966;
+const x = Number(anotherNumber.toPrecision(4));
+// console.log(typeof x);
+// console.log(x);
+
+const balance = 10000000;
+// console.log(balance.toLocaleString('en-IN'));
+
+// console.log(Math); // object {}
+// console.log(Math.abs(-4)); // 4
+// console.log(Math.round(4.5)); // 5
+// console.log(Math.ceil(4.2)); // 5
+// console.log(Math.floor(4.9)); // 4
+// const ar = [1, 23, 45, 54];
+// console.log(Math.min(...ar)) // 1
+// console.log(Math.max(...ar))//54
+
+// console.log((Math.random() * 10) + 1);
+const min = 10;
+const max = 20;
+const valueInLimit = (Math.random() * (max - min + 1)) + min
+
+console.log(Math.floor(valueInLimit));
+
+
