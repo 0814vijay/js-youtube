@@ -1,0 +1,36 @@
+#grey{
+    height: 100px;
+    width: 100px;
+   background-color: gray;
+    border: 1px solid black;
+    box-sizing: border-box; 
+    display: block;
+    margin: 20px;
+}
+#blue{
+    height: 100px;
+    width: 100px;
+   background-color: blue;
+    border: 1px solid black;
+    box-sizing: border-box; 
+    display: block;
+    margin: 20px;
+}
+#yellow{
+    height: 100px;
+    width: 100px;
+   background-color: yellow;
+    border: 1px solid black;
+    box-sizing: border-box; 
+    display: block;
+    margin: 20px;
+}
+#red{
+    height: 100px;
+    width: 100px;
+   background-color: red;
+    border: 1px solid black;
+    box-sizing: border-box; 
+    display: block;
+    margin: 20px;
+}
