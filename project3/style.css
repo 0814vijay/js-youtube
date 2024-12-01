@@ -1,0 +1,17 @@
+body{
+    background-color: #212121;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+   
+}
+#clock {
+    background-color: orange;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
