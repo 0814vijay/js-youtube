@@ -1,0 +1,12 @@
+body{
+    background-color: #212121;
+    color: #fff;
+    
+}
+.container{
+    justify-content: center;
+   display: flex;
+}
+#results{
+    color: #fff;
+}
