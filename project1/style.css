@@ -1,4 +1,4 @@
-#grey{
+/* #grey{
     height: 100px;
     width: 100px;
    background-color: gray;
@@ -33,4 +33,26 @@
     box-sizing: border-box; 
     display: block;
     margin: 20px;
+} */
+.button{
+    height: 100px;
+    width: 100px; 
+    border: 1px solid black;
+    box-sizing: border-box; 
+    display: block;
+    margin: 20px;
+
+   
+}
+#grey{
+    background-color: gray;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
 }
